@@ -1,0 +1,14 @@
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/bin/Debug/netcoreapp2.2/Ordering.Api.deps.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/bin/Debug/netcoreapp2.2/Ordering.Api.runtimeconfig.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/bin/Debug/netcoreapp2.2/Ordering.Api.runtimeconfig.dev.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/bin/Debug/netcoreapp2.2/Ordering.Api.dll
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/bin/Debug/netcoreapp2.2/Ordering.Api.pdb
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.csproj.CoreCompileInputs.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.RazorAssemblyInfo.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.RazorAssemblyInfo.cs
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.AssemblyInfoInputs.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.AssemblyInfo.cs
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.RazorTargetAssemblyInfo.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.dll
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.pdb
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Ordering.Api/obj/Debug/netcoreapp2.2/Ordering.Api.csprojAssemblyReference.cache

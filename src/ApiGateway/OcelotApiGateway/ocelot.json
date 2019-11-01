@@ -1,0 +1,113 @@
+﻿{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/api/catalog/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "catalog",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/catalog/{catchAll}"
+        },
+        {
+            "DownstreamPathTemplate": "/api/catalog/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "catalog",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/catalog/{id}",
+            "UpstreamHttpMethod": [ "Delete" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/catalog/items",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "catalog",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/catalog/items",
+            "UpstreamHttpMethod": [ "Put", "Post" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/basket/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "basket",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/basket/{catchAll}"
+        },
+        {
+            "DownstreamPathTemplate": "/api/basket",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "basket",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/basket",
+            "UpstreamHttpMethod": [ "Post" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/basket/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "basket",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/basket/{id}",
+            "UpstreamHttpMethod": [ "Delete" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/orders",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "ordering",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/orders",
+            "UpstreamHttpMethod": [ "Get" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/orders/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "ordering",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/orders/{id}",
+            "UpstreamHttpMethod": [ "Get" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/orders/new",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "ordering",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/orders/new",
+            "UpstreamHttpMethod": [ "Post" ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:5000"
+    }
+}

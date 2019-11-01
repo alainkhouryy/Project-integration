@@ -1,0 +1,95 @@
+﻿version: "3.4"
+
+
+networks:
+    backend:
+   
+services:
+    catalog:
+        image: shoes/catalog
+        build: 
+          context: ./src/Services/CatalogApi
+          dockerfile: Dockerfile
+        environment: 
+          - ASPNETCORE_ENVIRONMENT=Development 
+        container_name: catalogapi
+        ports:
+          - "5100:80"
+        networks:
+          - backend
+        depends_on:
+          - mssqlserver
+    basket:
+        image: shoes/basket
+        build: 
+          context: ./src/Services/Basket.Api
+          dockerfile: Dockerfile
+        environment: 
+          - ASPNETCORE_ENVIRONMENT=Development 
+          - IdentityUrl=http://10.0.75.1:5000
+        container_name: basketapi
+        ports:
+          - "5200:80"
+        networks:
+          - backend
+        depends_on:
+          - basket.data
+
+    mssqlserver:
+        image: "microsoft/mssql-server-linux:2017-latest"
+        container_name: mssqldata
+        ports:
+          - "1402:1433" 
+        networks:
+          - backend
+        environment:
+          - SA_PASSWORD=MyProduct!123
+          - ACCEPT_EULA="Y"
+    basket.data:
+        image: redis
+        container_name: redisdb
+        ports:
+          - "6377:6379"  
+        networks:
+          - backend
+    ordering:
+        image: shoes/ordering
+        build: 
+          context: ./src/Services/Ordering.Api
+          dockerfile: Dockerfile
+        
+        environment: 
+          - ASPNETCORE_ENVIRONMENT=Development 
+          - SQLSERVER_HOST=mssqlserver
+          - SA_PASSWORD=MyProduct!123
+          - DATABASE=OrdersDb
+        container_name: orderingapi
+        ports:
+          - "5300:80"
+        networks:
+          - backend 
+        depends_on:
+          - mssqlserver
+    gateway:
+        image: shoes/gateway
+        build: 
+          context: ./src/ApiGateway/OcelotApiGateway
+          dockerfile: Dockerfile
+        container_name: gatewayapi
+        ports:
+          - "5000:80"
+        networks:
+          - backend
+
+    rabbitmq:
+        image: rabbitmq:3-management
+        container_name: rabbitmq
+        hostname: myrabbitmq
+        ports:
+            - "15672:15672"
+            - "5672:5672"
+            - "5671:5671"
+        volumes:
+            - ~/rabbitmq:/var/lib/rabbitmq/mnesia   
+        networks:
+            - backend 

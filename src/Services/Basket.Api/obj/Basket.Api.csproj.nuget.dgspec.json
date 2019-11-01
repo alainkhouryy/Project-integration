@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Basket.Api/Basket.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Basket.Api/Basket.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Basket.Api/Basket.Api.csproj",
+        "projectName": "Basket.Api",
+        "projectPath": "/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Basket.Api/Basket.Api.csproj",
+        "packagesPath": "/Users/alainkhoury/.nuget/packages/",
+        "outputPath": "/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/Basket.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/alainkhoury/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[4.0.1.1381-develop, )"
+            },
+            "MassTransit.Autofac": {
+              "target": "Package",
+              "version": "[4.0.1.1381-develop, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[4.0.1.1381-develop, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

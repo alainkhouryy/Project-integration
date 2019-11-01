@@ -1,0 +1,14 @@
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/bin/Debug/netcoreapp2.2/CatalogApi.deps.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/bin/Debug/netcoreapp2.2/CatalogApi.runtimeconfig.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/bin/Debug/netcoreapp2.2/CatalogApi.runtimeconfig.dev.json
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/bin/Debug/netcoreapp2.2/CatalogApi.dll
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/bin/Debug/netcoreapp2.2/CatalogApi.pdb
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.csprojAssemblyReference.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.csproj.CoreCompileInputs.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.RazorAssemblyInfo.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.RazorAssemblyInfo.cs
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.AssemblyInfoInputs.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.AssemblyInfo.cs
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.RazorTargetAssemblyInfo.cache
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.dll
+/Users/alainkhoury/Documents/Esib/genie/semestre-5/Integration-des-applications-entreprises/Project/ShoeOnContainers/src/Services/CatalogApi/obj/Debug/netcoreapp2.2/CatalogApi.pdb

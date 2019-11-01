@@ -93,3 +93,7 @@ and now the ordering microservice will publish a message that the customer with 
 
 ![picture](images/basket-removed.png)
 
+## Reference
+
+The project was built by following a Udemy course called “ASP.NET Core 2.0 E-Commerce website based on microservices”. 
+```https://www.udemy.com/join/login-popup/?next=/course/aspnet-core-20-e-commerce-web-site-based-on-microservices-and-docker/learn/lecture/8864740#overview```

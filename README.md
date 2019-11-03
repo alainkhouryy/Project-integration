@@ -46,19 +46,20 @@ Run each of the following command on different terminal
 ## Catalog
 
 baseURL = http://localhost:5100/
-![picture](images/catalog.png)
+
+![picture](Images/catalog.png)
 
 ## Basket
 
 baseURL = http://localhost:5200/
 
-![picture](images/ordering.png)
+![picture](Images/ordering.png)
 
 ## Ordering
 
 baseURL = http://localhost:5200/
 
-![picture](images/ordering.png)
+![picture](Images/ordering.png)
 
 
 ## API Gateway
@@ -73,25 +74,25 @@ If you want to use the API Gateway, you can just replace the baseURL with http:/
 Send a GET request to the Catalog Microservice through the API Gateway
 
 
-![picture](images/catalog-firstRequest.png)
+![picture](Images/catalog-firstRequest.png)
 
 
 ## Add a product to the basket
 
 Send a POST request to the Basket Microservice through the API Gateway
 
-![picture](images/basket-firstRequest.png)
+![picture](Images/basket-firstRequest.png)
 
 ## Order the products
 
 
 To order a product, you need to send a POST request to the Ordering Microservice through the API Gateway
 
-![picture](images/orders-addOrder.png)
+![picture](Images/orders-addOrder.png)
 
 and now the ordering microservice will publish a message that the customer with customerId = 1 ordered his products, then the basket microservice will catch this message and it will remove all items from his basket.
 
-![picture](images/basket-removed.png)
+![picture](Images/basket-removed.png)
 
 ## Reference
 

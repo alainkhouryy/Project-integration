@@ -3,7 +3,7 @@
 
 ## Overview
 
-This purpose of the project is to develop a microservice architecture based application using .NET Core (C#) and Docker.
+The purpose of this project is to develop a microservice architecture based application using .NET Core (C#) and Docker.
 
 The application is a shoe E-Commerce website (like Amazon) that is implemented as a multi-container application. Each container is a microservice developed using .NET Core.
 The application consists of 3 microservices:
